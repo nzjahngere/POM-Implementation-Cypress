@@ -1,7 +1,7 @@
 class NavbarPage {
-    homeLink = 'a[href="/home"]';
-    aboutLink = 'a[href="/about"]';
-    contactLink = 'a[href="/contact"]';
+    homeLink = 'a[href="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"]';
+    aboutLink = 'a[href="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"]';
+    contactLink = 'a[href="https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates"]';
 
     clickHome() {
         cy.get(this.homeLink).click();

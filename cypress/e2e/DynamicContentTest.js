@@ -4,7 +4,7 @@ describe("Dynamic Content Handling Test", () => {
     const dynamicContentPage = new DynamicContentPage();
 
     beforeEach(() => {
-        cy.visit("https://example.com/dynamic-content"); // Replace with actual site URL
+        cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"); // Replace with actual site URL
     });
 
     it("Should load new content on scrolling", () => {

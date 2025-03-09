@@ -4,7 +4,7 @@ describe("Navbar Navigation Test", () => {
     const navbarPage = new NavbarPage();
 
     beforeEach(() => {
-        cy.visit("https://example.com"); // Replace with the actual site URL
+        cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"); // Replace with the actual site URL
     });
 
     it("Should navigate to Home page", () => {
